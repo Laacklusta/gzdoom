@@ -1,0 +1,1312 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      The system is: Linux - 6.1.75-060175-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /workspace/gzdoom/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /workspace/gzdoom/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-GBehof"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-GBehof"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-GBehof'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2b478/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2b478.dir/build.make CMakeFiles/cmTC_2b478.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-GBehof'
+        Building C object CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b478.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b478.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccsTHXk.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b478.dir/'
+         as -v --64 -o CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o /tmp/cccsTHXk.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_2b478
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b478.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o -o cmTC_2b478 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b478' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2b478.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR0N7wC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b478 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b478' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2b478.'
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-GBehof'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-GBehof']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2b478/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2b478.dir/build.make CMakeFiles/cmTC_2b478.dir/build]
+        ignore line: [gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-GBehof']
+        ignore line: [Building C object CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b478.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2b478.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccsTHXk.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b478.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o /tmp/cccsTHXk.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_2b478]
+        ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b478.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o -o cmTC_2b478 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b478' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2b478.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR0N7wC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2b478 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccR0N7wC.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2b478] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_2b478.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-rWbHoF"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-rWbHoF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-rWbHoF'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0b9bd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0b9bd.dir/build.make CMakeFiles/cmTC_0b9bd.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-rWbHoF'
+        Building CXX object CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0b9bd.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0b9bd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGfuR2K.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0b9bd.dir/'
+         as -v --64 -o CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGfuR2K.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_0b9bd
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b9bd.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0b9bd 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b9bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0b9bd.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNeVCkR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0b9bd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b9bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0b9bd.'
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-rWbHoF'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-rWbHoF']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0b9bd/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0b9bd.dir/build.make CMakeFiles/cmTC_0b9bd.dir/build]
+        ignore line: [gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-rWbHoF']
+        ignore line: [Building CXX object CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0b9bd.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0b9bd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGfuR2K.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0b9bd.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGfuR2K.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_0b9bd]
+        ignore line: [/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b9bd.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0b9bd ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b9bd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0b9bd.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNeVCkR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0b9bd /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNeVCkR.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0b9bd] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_0b9bd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindBZip2.cmake:93 (CHECK_SYMBOL_EXISTS)"
+      - "CMakeLists.txt:216 (find_package)"
+    checks:
+      - "Looking for BZ2_bzCompressInit"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-KoOaPl"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-KoOaPl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "BZIP2_NEED_PREFIX"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-KoOaPl'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_40977/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_40977.dir/build.make CMakeFiles/cmTC_40977.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-KoOaPl'
+        Building C object CMakeFiles/cmTC_40977.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_40977.dir/CheckSymbolExists.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-KoOaPl/CheckSymbolExists.c
+        Linking C executable cmTC_40977
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40977.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_40977.dir/CheckSymbolExists.c.o -o cmTC_40977  /usr/lib/x86_64-linux-gnu/libbz2.so 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-KoOaPl'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/TargetArch.cmake:141 (try_run)"
+      - "CMakeLists.txt:235 (target_architecture)"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeTmp"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80bd7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_80bd7.dir/build.make CMakeFiles/cmTC_80bd7.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_80bd7.dir/arch.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_80bd7.dir/arch.c.o -c /workspace/gzdoom/arch.c
+        /workspace/gzdoom/arch.c:29:6: error: #error cmake_ARCH x86_64
+           29 |     #error cmake_ARCH x86_64
+              |      ^~~~~
+        /workspace/gzdoom/arch.c:42:2: error: #error cmake_ARCH unknown
+           42 | #error cmake_ARCH unknown
+              |  ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_80bd7.dir/build.make:78: CMakeFiles/cmTC_80bd7.dir/arch.c.o] Error 1
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_80bd7/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:304 (check_symbol_exists)"
+    checks:
+      - "Looking for fts_set"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-5ueo7b"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-5ueo7b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_FTS"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-5ueo7b'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a46d0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a46d0.dir/build.make CMakeFiles/cmTC_a46d0.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-5ueo7b'
+        Building C object CMakeFiles/cmTC_a46d0.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a46d0.dir/CheckSymbolExists.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-5ueo7b/CheckSymbolExists.c
+        Linking C executable cmTC_a46d0
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a46d0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a46d0.dir/CheckSymbolExists.c.o -o cmTC_a46d0 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-5ueo7b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:365 (check_symbol_exists)"
+    checks:
+      - "Looking for backtrace"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-FvlT5Q"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-FvlT5Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_BACKTRACE"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-FvlT5Q'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bffec/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bffec.dir/build.make CMakeFiles/cmTC_bffec.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-FvlT5Q'
+        Building C object CMakeFiles/cmTC_bffec.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_bffec.dir/CheckSymbolExists.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-FvlT5Q/CheckSymbolExists.c
+        Linking C executable cmTC_bffec
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bffec.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_bffec.dir/CheckSymbolExists.c.o -o cmTC_bffec 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-FvlT5Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "libraries/lzma/CMakeLists.txt:5 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-iGLa3c"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-iGLa3c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE -DZ7_PPMD_SUPPORT"
+      CMAKE_C_FLAGS_DEBUG: "-O3 -DNDEBUG "
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-iGLa3c'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93a3c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_93a3c.dir/build.make CMakeFiles/cmTC_93a3c.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-iGLa3c'
+        Building C object CMakeFiles/cmTC_93a3c.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE -DZ7_PPMD_SUPPORT  -o CMakeFiles/cmTC_93a3c.dir/src.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-iGLa3c/src.c
+        Linking C executable cmTC_93a3c
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93a3c.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE -DZ7_PPMD_SUPPORT   -pie  CMakeFiles/cmTC_93a3c.dir/src.c.o -o cmTC_93a3c 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-iGLa3c'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "tools/re2c/CMakeLists.txt:19 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-PGwu88"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-PGwu88"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-PGwu88'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f0772/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f0772.dir/build.make CMakeFiles/cmTC_f0772.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-PGwu88'
+        Building C object CMakeFiles/cmTC_f0772.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE -DCHECK_FUNCTION_EXISTS=strdup -o CMakeFiles/cmTC_f0772.dir/CheckFunctionExists.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-PGwu88/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-PGwu88/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        Linking C executable cmTC_f0772
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0772.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE -DCHECK_FUNCTION_EXISTS=strdup  -pie  CMakeFiles/cmTC_f0772.dir/CheckFunctionExists.c.o -o cmTC_f0772 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-PGwu88'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "tools/re2c/CMakeLists.txt:20 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strndup"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-0vu58e"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-0vu58e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_STRNDUP"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-0vu58e'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8957c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8957c.dir/build.make CMakeFiles/cmTC_8957c.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-0vu58e'
+        Building C object CMakeFiles/cmTC_8957c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE -DCHECK_FUNCTION_EXISTS=strndup -o CMakeFiles/cmTC_8957c.dir/CheckFunctionExists.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-0vu58e/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘strndup’; expected ‘char *(const char *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-0vu58e/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        Linking C executable cmTC_8957c
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8957c.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE -DCHECK_FUNCTION_EXISTS=strndup  -pie  CMakeFiles/cmTC_8957c.dir/CheckFunctionExists.c.o -o cmTC_8957c 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-0vu58e'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-dWDjTw"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-dWDjTw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-dWDjTw'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8813/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d8813.dir/build.make CMakeFiles/cmTC_d8813.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-dWDjTw'
+        Building C object CMakeFiles/cmTC_d8813.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_d8813.dir/CheckIncludeFile.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-dWDjTw/CheckIncludeFile.c
+        Linking C executable cmTC_d8813
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8813.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_d8813.dir/CheckIncludeFile.c.o -o cmTC_d8813 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-dWDjTw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TMntlr"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TMntlr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TMntlr'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2c8ac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2c8ac.dir/build.make CMakeFiles/cmTC_2c8ac.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TMntlr'
+        Building C object CMakeFiles/cmTC_2c8ac.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_2c8ac.dir/CheckIncludeFile.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TMntlr/CheckIncludeFile.c
+        Linking C executable cmTC_2c8ac
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c8ac.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_2c8ac.dir/CheckIncludeFile.c.o -o cmTC_2c8ac 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TMntlr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-2msTZZ"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-2msTZZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-2msTZZ'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ca691/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ca691.dir/build.make CMakeFiles/cmTC_ca691.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-2msTZZ'
+        Building C object CMakeFiles/cmTC_ca691.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_ca691.dir/CheckIncludeFile.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-2msTZZ/CheckIncludeFile.c
+        Linking C executable cmTC_ca691
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca691.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_ca691.dir/CheckIncludeFile.c.o -o cmTC_ca691 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-2msTZZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:22 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of 0i8"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_0I8"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_88cfa/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_88cfa.dir/build.make CMakeFiles/cmTC_88cfa.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc'
+        Building C object CMakeFiles/cmTC_88cfa.dir/SIZEOF_0I8.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_88cfa.dir/SIZEOF_0I8.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:27:22: error: invalid suffix "i8" on integer constant
+           27 | #define SIZE (sizeof(0i8))
+              |                      ^~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:29:12: note: in expansion of macro ‘SIZE’
+           29 |   ('0' + ((SIZE / 10000)%10)),
+              |            ^~~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:27:22: error: invalid suffix "i8" on integer constant
+           27 | #define SIZE (sizeof(0i8))
+              |                      ^~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:30:12: note: in expansion of macro ‘SIZE’
+           30 |   ('0' + ((SIZE / 1000)%10)),
+              |            ^~~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:27:22: error: invalid suffix "i8" on integer constant
+           27 | #define SIZE (sizeof(0i8))
+              |                      ^~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:31:12: note: in expansion of macro ‘SIZE’
+           31 |   ('0' + ((SIZE / 100)%10)),
+              |            ^~~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:27:22: error: invalid suffix "i8" on integer constant
+           27 | #define SIZE (sizeof(0i8))
+              |                      ^~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:32:12: note: in expansion of macro ‘SIZE’
+           32 |   ('0' + ((SIZE / 10)%10)),
+              |            ^~~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:27:22: error: invalid suffix "i8" on integer constant
+           27 | #define SIZE (sizeof(0i8))
+              |                      ^~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc/SIZEOF_0I8.c:33:12: note: in expansion of macro ‘SIZE’
+           33 |   ('0' +  (SIZE    % 10)),
+              |            ^~~~
+        gmake[1]: *** [CMakeFiles/cmTC_88cfa.dir/build.make:78: CMakeFiles/cmTC_88cfa.dir/SIZEOF_0I8.c.o] Error 1
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-T8KyEc'
+        gmake: *** [Makefile:127: cmTC_88cfa/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:23 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of 0l"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-s49ImD"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-s49ImD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_0L"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-s49ImD'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3626e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3626e.dir/build.make CMakeFiles/cmTC_3626e.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-s49ImD'
+        Building C object CMakeFiles/cmTC_3626e.dir/SIZEOF_0L.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_3626e.dir/SIZEOF_0L.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-s49ImD/SIZEOF_0L.c
+        Linking C executable cmTC_3626e
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3626e.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_3626e.dir/SIZEOF_0L.c.o -o cmTC_3626e 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-s49ImD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:24 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of 0ll"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-AS8vXj"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-AS8vXj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_0LL"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-AS8vXj'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_27381/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_27381.dir/build.make CMakeFiles/cmTC_27381.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-AS8vXj'
+        Building C object CMakeFiles/cmTC_27381.dir/SIZEOF_0LL.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_27381.dir/SIZEOF_0LL.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-AS8vXj/SIZEOF_0LL.c
+        Linking C executable cmTC_27381
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27381.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_27381.dir/SIZEOF_0LL.c.o -o cmTC_27381 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-AS8vXj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:25 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of char"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TGDOsp"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TGDOsp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_CHAR"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TGDOsp'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b93d5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b93d5.dir/build.make CMakeFiles/cmTC_b93d5.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TGDOsp'
+        Building C object CMakeFiles/cmTC_b93d5.dir/SIZEOF_CHAR.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_b93d5.dir/SIZEOF_CHAR.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TGDOsp/SIZEOF_CHAR.c
+        Linking C executable cmTC_b93d5
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b93d5.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_b93d5.dir/SIZEOF_CHAR.c.o -o cmTC_b93d5 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-TGDOsp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:26 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-HVo8Wv"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-HVo8Wv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-HVo8Wv'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e672/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3e672.dir/build.make CMakeFiles/cmTC_3e672.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-HVo8Wv'
+        Building C object CMakeFiles/cmTC_3e672.dir/SIZEOF_SHORT.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_3e672.dir/SIZEOF_SHORT.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-HVo8Wv/SIZEOF_SHORT.c
+        Linking C executable cmTC_3e672
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e672.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_3e672.dir/SIZEOF_SHORT.c.o -o cmTC_3e672 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-HVo8Wv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:27 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-WQonBo"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-WQonBo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-WQonBo'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ee53b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ee53b.dir/build.make CMakeFiles/cmTC_ee53b.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-WQonBo'
+        Building C object CMakeFiles/cmTC_ee53b.dir/SIZEOF_INT.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_ee53b.dir/SIZEOF_INT.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-WQonBo/SIZEOF_INT.c
+        Linking C executable cmTC_ee53b
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee53b.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_ee53b.dir/SIZEOF_INT.c.o -o cmTC_ee53b 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-WQonBo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:28 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-yKqJxU"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-yKqJxU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-yKqJxU'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_30b80/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_30b80.dir/build.make CMakeFiles/cmTC_30b80.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-yKqJxU'
+        Building C object CMakeFiles/cmTC_30b80.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_30b80.dir/SIZEOF_LONG.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-yKqJxU/SIZEOF_LONG.c
+        Linking C executable cmTC_30b80
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30b80.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_30b80.dir/SIZEOF_LONG.c.o -o cmTC_30b80 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-yKqJxU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:29 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-Pq2P1E"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-Pq2P1E"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-Pq2P1E'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7e498/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7e498.dir/build.make CMakeFiles/cmTC_7e498.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-Pq2P1E'
+        Building C object CMakeFiles/cmTC_7e498.dir/SIZEOF_LONG_LONG.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_7e498.dir/SIZEOF_LONG_LONG.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-Pq2P1E/SIZEOF_LONG_LONG.c
+        Linking C executable cmTC_7e498
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e498.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_7e498.dir/SIZEOF_LONG_LONG.c.o -o cmTC_7e498 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-Pq2P1E'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:30 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of void *"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-qsbIkK"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-qsbIkK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_P"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-qsbIkK'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92165/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_92165.dir/build.make CMakeFiles/cmTC_92165.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-qsbIkK'
+        Building C object CMakeFiles/cmTC_92165.dir/SIZEOF_VOID_P.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_92165.dir/SIZEOF_VOID_P.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-qsbIkK/SIZEOF_VOID_P.c
+        Linking C executable cmTC_92165
+        /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92165.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE   -pie  CMakeFiles/cmTC_92165.dir/SIZEOF_VOID_P.c.o -o cmTC_92165 
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-qsbIkK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "tools/re2c/CMakeLists.txt:31 (CHECK_TYPE_SIZE)"
+    checks:
+      - "Check size of __int64"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZEOF___INT_64"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5aa6a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5aa6a.dir/build.make CMakeFiles/cmTC_5aa6a.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO'
+        Building C object CMakeFiles/cmTC_5aa6a.dir/SIZEOF___INT_64.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_5aa6a.dir/SIZEOF___INT_64.c.o -c /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO/SIZEOF___INT_64.c
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO/SIZEOF___INT_64.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+           27 | #define SIZE (sizeof(__int64))
+              |                      ^~~~~~~
+        /workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO/SIZEOF___INT_64.c:29:12: note: in expansion of macro ‘SIZE’
+           29 |   ('0' + ((SIZE / 10000)%10)),
+              |            ^~~~
+        gmake[1]: *** [CMakeFiles/cmTC_5aa6a.dir/build.make:78: CMakeFiles/cmTC_5aa6a.dir/SIZEOF___INT_64.c.o] Error 1
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeScratch/TryCompile-hIHVGO'
+        gmake: *** [Makefile:127: cmTC_5aa6a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/TargetArch.cmake:141 (try_run)"
+      - "src/CMakeLists.txt:35 (target_architecture)"
+    directories:
+      source: "/workspace/gzdoom/CMakeFiles/CMakeTmp"
+      binary: "/workspace/gzdoom/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE"
+      CMAKE_C_FLAGS_DEBUG: "-g  -D_DEBUG"
+      CMAKE_EXE_LINKER_FLAGS: " -pie"
+      CMAKE_MODULE_PATH: "/workspace/gzdoom/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/gzdoom/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_21ded/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_21ded.dir/build.make CMakeFiles/cmTC_21ded.dir/build
+        gmake[1]: Entering directory '/workspace/gzdoom/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_21ded.dir/arch.c.o
+        /usr/bin/cc   -ffp-contract=off -DHAVE_VULKAN -DHAVE_GLES2 -fPIE  -o CMakeFiles/cmTC_21ded.dir/arch.c.o -c /workspace/gzdoom/arch.c
+        /workspace/gzdoom/arch.c:29:6: error: #error cmake_ARCH x86_64
+           29 |     #error cmake_ARCH x86_64
+              |      ^~~~~
+        /workspace/gzdoom/arch.c:42:2: error: #error cmake_ARCH unknown
+           42 | #error cmake_ARCH unknown
+              |  ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_21ded.dir/build.make:78: CMakeFiles/cmTC_21ded.dir/arch.c.o] Error 1
+        gmake[1]: Leaving directory '/workspace/gzdoom/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_21ded/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
